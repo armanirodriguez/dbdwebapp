@@ -63,7 +63,7 @@ const App = () => {
     <div style={{ padding: '20px' }}>
       <h1>Dead by Daylight Random Killer and Map Selector</h1>
       <div className="gif-container">
-        <img src={gifImage} alt="Top Right GIF" />
+        <img src={subwaySurfers} alt="Top Right GIF" />
       </div>
       <div>
         <h2>Enter Player Names</h2>
