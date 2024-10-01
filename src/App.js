@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import subwaySurfers from './subway-surfers.gif';
 
 const mapsList = [
     "The MacMillan Estate",
@@ -61,7 +62,9 @@ const App = () => {
   return (
     <div style={{ padding: '20px' }}>
       <h1>Dead by Daylight Random Killer and Map Selector</h1>
-
+      <div className="gif-container">
+        <img src={gifImage} alt="Top Right GIF" />
+      </div>
       <div>
         <h2>Enter Player Names</h2>
         {players.map((player, index) => (
